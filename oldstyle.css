@@ -1,0 +1,234 @@
+@media screen and (min-width:1920px) {
+	 .container{
+		width: 100%;
+		max-width: 1600px;
+		margin: 0 auto;
+		
+	}
+	.header{
+
+	}
+	h1{
+		font-family: 'FgrFont';
+		font-size: 46px;
+		font-weight: normal;
+	}
+	.fg_words{
+		
+		margin-top:20px;
+		margin-left:20px;
+		margin-bottom: 8px;
+		line-height: 50%;
+		
+		width: 550px;
+		float: left;
+	}
+	.fav_words{
+		float: right;
+		margin-top:50px;
+		width: 700px;
+		font-size: 42px;
+		font-style: italic;
+		margin-bottom: 10px;
+	}
+	.heart_img{
+		width: 40px;
+		height: 35px;
+		margin-bottom: -5px;
+	}
+	.main_img{
+
+	}
+	.banner{
+		margin-top: 20px;
+		width: 1600px;
+		height: 700px;
+	}
+	.second-block{
+		margin-top:50px;
+	}
+	.col-contact{
+		display: inline-block;
+		vertical-align: top;
+		width: 25%;
+		padding-left:20px;
+		line-height: 50%;
+
+	}
+	.title-col-1{
+		margin-top:60px;
+		font-size: 26px;
+
+	}
+	.contacts{
+		margin-top:60px;
+		font-size: 22px;
+		color: #666666;
+
+	}
+
+	.col-2{
+		display: inline-block;
+		vertical-align: top;
+		width: 25%;
+		padding-left:20px;
+	}
+	.col-3{
+		display: inline-block;
+		vertical-align: top;
+		width:49%;
+		height: 500px;
+
+	}
+	.bg-text{
+		background-color: pink;
+
+	}
+	.links{
+		color: #b87a41;
+		text-decoration: none;
+		line-height: 100%;
+	}
+	.download-links{
+		margin-top: 50px;
+		padding-left: 20px;
+		display: inline-block;
+		width: 25%;
+		vertical-align: top;
+	}
+	.title-col-2{
+		font-size: 42px;
+	}
+	li{
+		 list-style-type: none;
+	}
+	li::before{
+		content: "— ";
+	}
+	ul{
+		line-height: 120%;
+		font-size: 22px;
+	}
+	.million{
+		font-size: 120px;
+		font-family: "Georgia";
+		font-style: italic;
+		line-height: 90%;
+	}
+	.big-words{
+		font-size: 70px;
+		padding-left:150px;
+		font-style: italic;
+		line-height: 90%;
+	}
+	.vk{
+		margin-top:30px;
+		width: 60px;
+		height: 60px;
+	}
+	.col-4{
+		margin-top: 30px;
+		display: inline-block;
+		width: 25%;
+		vertical-align: top;
+		font-size: 62px;
+	}
+	.col-5{
+		display: inline-block;
+		width: 49%;
+		vertical-align: top;
+		margin-top: 40px;
+		font-size: 18px;
+		color:#666666;
+	}
+	.empty-col{
+		display: inline-block;
+		width: 24%;
+	}
+	.col-6{
+		display: inline-block;
+		width: 75%;
+	}
+	.print-img{
+		width: 385px;
+		height: 385px;
+	}
+	.col-sale{
+		margin-top: 30px;
+		display: inline-block;
+		width:75%;
+		vertical-align: top;
+		font-size: 54px;
+	}
+	.col-8{
+		margin-top: 30px;
+		display: inline-block;
+		width: 25%;
+		vertical-align: top;
+		font-size: 20px;
+	}
+	.col-9{
+		margin-top: 30px;
+		display: inline-block;
+		width: 25%;
+		vertical-align: top;
+		font-size: 20px;
+	}
+	.title-col-8{
+		background-color: pink;
+		font-size: 22px;
+	}
+	.empty-col-half{
+		display: inline-block;
+		width: 49%;
+	}
+	.proj-block{
+		display: inline-block;
+		width: 74%;
+	}
+	.proj-title{
+		width: 100%;
+		font-size: 54px;
+		margin: 20px;
+	}
+	.photo{
+		width: 100%;
+	}
+	.photo-img{
+		width: 385px;
+		height: 385px;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.text-proj-1{
+		font-size: 20px;
+		text-align: left;
+		margin-top: 40px;
+	}
+	.text-proj-2{
+		font-size: 20px;
+		text-align: right;
+		margin-top: 40px;
+	}
+	footer{
+		margin-top:100px;
+		display: flex;
+  		justify-content: center;
+  		
+	}
+	.fg-logo{
+		width: 60px;
+		height: 60px;
+		
+	}
+	.bg-text-footer{
+		background-color: pink;
+		font-size: 22px;
+		height: 26px;
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+
+
+
+  }

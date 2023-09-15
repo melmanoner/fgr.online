@@ -1,0 +1,1552 @@
+@font-face{
+	font-family: 'FgrFont';
+	src: url('Fonts/ALS_Ooze_Regular_0.8.otf') format('truetype');
+	font-weight: normal;
+}
+@font-face{
+	font-family: 'FgrFontBold';
+	src: url('Fonts/ALS_Ooze_Bold_0.8.otf') format('truetype');
+	font-weight: normal;
+}
+
+*{
+	-webkit-transition-duration:0.76s;
+	-moz-transition-duration:0.76s;
+	-o-transition-duration:0.76s;
+	-ms-transition-duration:0.76s;
+	
+	box-sizing: border-box;
+	font-family: 'FgrFont';
+}
+
+@media screen and (max-width: 479px){
+	.br{
+		display: none;
+	}
+	.text-proj-adaptive{
+		display: none;
+	}
+	.col-contact{
+		display: none;
+	}
+	.banner-360{
+		display: initial;
+	}
+	.banner{
+		display: none;
+	}
+	.advantages{
+		display: none;
+	}
+	.col-contact-2{
+		display: none;
+	}
+	.photo{
+		display: none;
+	}
+
+	.container{
+		max-width: 100%;
+		margin: 0 auto;
+		justify-content: center;
+		padding-left: 10px;
+	}
+	header{
+ 		display: flex;
+ 		flex-wrap: wrap;
+ 	}
+ 	.fg_words{
+ 		width: 100%;
+ 	}
+ 	h1{
+ 		font-size: 20px;
+ 		line-height: 20%;
+ 		font-weight: 700;
+ 	}
+ 	.fav_words{
+ 		width: 100%;
+ 		text-align: right;
+ 		font-size: 18px;
+ 		
+ 		margin-bottom: 20px;
+ 	}
+ 	.heart_img{
+		width: 18px;
+		height: 12px;
+		margin-bottom: -1px;
+	}
+	.banner-360{
+		width: 100%;
+		
+	}
+	.collection-and-empty{
+		
+	}
+	.col-print-img{
+
+	}
+	.collection-print{
+		width: 420px;
+		height: 180px;
+	}
+	.vk{
+		width: 30px;
+		height: 30px;
+	}
+	.print-img{
+		width: 320px;
+		height: 320px;
+	}
+	.photo-img{
+		width: 320px;
+		height: 320px;
+	}
+	.advantages{
+		display: none;
+	}
+	.title-col-2{
+		margin-top: 20px;
+		font-size: 20px;
+	}
+	
+	li{
+		 list-style-type: none;
+	}
+	li::before{
+		content: "— ";
+	}
+	ul{
+		line-height: 180%;
+		font-size: 16px;
+		margin-top: 20px;
+		margin-bottom: 0;
+	}
+	.col-3{
+		text-align: center;
+	}	
+	.million{
+		font-family: "Georgia";
+		
+		font-size: 46px;
+	}
+
+	.big-words{
+		font-size: 30px;
+	}
+	.advantages-adaptive{
+		width: 100%;
+		text-align: left;
+	}
+	.col-2{
+		text-align: center;
+		line-height: 100%;
+	}
+	.col-print-img{
+		max-height: 100%;
+		margin-left: -25px;
+	}
+	.sale-list{
+		text-align: left;
+		margin: 0;
+	}
+	.download-links{
+		display: none;
+	}
+	.col-4{
+		display: none;
+	}
+	.col-5{
+		margin-top:0;
+		text-align: left;
+		width: 100%;
+		height: 100%;
+		margin-bottom: 20px;
+	}
+	.four-block{
+		display: none
+	}
+	.six-block{
+		text-align: left;
+		line-height: 120%;
+	}
+	.col-sale{
+		font-size: 46px;
+		
+		line-height: 80%;
+		margin-top: 20px;
+	}
+	.col-8{
+		margin-top: 20px;
+	}
+	.col-9{
+		margin-top: 20px;
+	}
+
+	.proj-block{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.proj-title{
+		margin-top: 10px;
+		font-size: 46px;
+		line-height: 100%;
+		order: 1;
+	}
+	.photo-1{
+		order: 2;
+	}
+	.text-proj-1{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		order: 3;
+	}
+	.another-photo{
+		order: 4;
+	}
+	.text-proj-2-empty{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		order: 5;
+	}
+
+	.col-contact-adptive{
+		width: 100%;
+		padding-left: 15px;
+		margin-top: 40px;
+		font-size: 12px;
+		display: flex;
+		
+	}
+		
+	.title-col-1{
+		font-size: 18px;
+		margin-bottom: 45px;
+	}
+	.contacts{
+		line-height: 40%;
+		margin-top: 35px;
+		
+		font-size: 14px;
+		text-align: center;
+	}
+	.download-links-2{
+		margin-top: 20px;
+		width: 100%;
+		text-align: center;
+	}
+	.tel{
+		text-decoration: none;
+		color: black;
+	}
+	.download-link{
+		text-align: center;
+	}
+	.links{
+		text-decoration: none;
+		color: #b87a41;
+	}
+	.title-col-8{
+		font-size: 18px;
+	}
+	.vk{
+		margin-top: 20px;
+		width: 50px;
+		height: 50px;
+		align-items: center;
+	}
+	footer{
+		margin-top: 50px;
+		display: flex;
+		justify-content: center;
+	}
+	.fg-logo{
+		width: 35px;
+		height: 35px;
+	}
+	.bg-text-footer{
+		margin-top: 10px;
+		margin-bottom: 40px;
+		align-items: center;
+		font-size: 16px;
+		height: 24px;
+	}
+	.seven-block{
+		font-size: 18px;
+	}
+	.col-contact-adaptive{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.contacts{
+		width: 100%;
+		font-size: 18px;
+		order: 2;
+	}
+	.download-links-2{
+		width: 100%;
+		font-size: 18px;
+		order: 1;
+	}
+	.fox-print{
+		text-align:center;
+	}
+	.first-print{
+		text-align:center;
+		margin-bottom: 10pt;
+	}
+	.second-print{
+		text-align:center;
+	}
+	.photo-1{
+		width: 100%;
+		text-align:center;
+	}
+	.another-photo{
+		text-align:center;
+	}
+
+
+
+}
+
+@media screen and (min-width:480px){
+	.br{
+		display: initial;
+	}
+	.banner-360{
+		display: none;
+	}
+	.banner{
+		display: initial;
+	}
+	.col-contact-adaptive{
+		display: initial;
+	}
+	.text-proj-adaptive{
+		display: initial;
+	}
+	.text-proj-2-empty{
+		display: none;
+	}
+	.photo-1{
+ 		display: initial;
+ 	}
+ 	.another-photo{
+ 		display: initial;
+ 	}
+ 	.photo{
+ 		display: none;
+ 	}
+	.col-6{
+		display: none;
+	}
+	.fox-print{
+ 		display: initial;
+ 	}
+ 	.collection-and-empty{
+ 		display: initial;
+ 	}
+ 	.advantages-adaptive{
+ 		display: initial;
+ 	}
+ 	.two-print-block{
+ 		display: initial;
+ 	}
+	.advantages{
+ 		display: none;
+ 	}
+ 	.download-links{
+		display: none;
+	}
+	.col-4{
+		display: none;
+	}
+	#fox{
+		display: none;
+	}
+	.empty-col{
+		display: none;
+	}
+	.col-contact{
+ 		display: none;
+ 	}
+ 	.col-contact-2{
+ 		display: none;
+ 	}
+ 	.container{
+ 		max-width: 480px;
+ 		margin: 0 auto;
+ 	}
+ 	header{
+ 		display: flex;
+ 		flex-wrap: wrap;
+ 	}
+ 	.fg_words{
+ 		width: 40%;
+ 		margin-top: 15px;
+ 		margin-bottom: 15px;
+ 		padding-left: 20px;
+ 	}
+ 	h1{
+ 		font-size: 24px;
+ 		line-height: 20%;
+ 		font-weight: 700;
+ 	}
+ 	.fav_words{
+ 		width: 60%;
+ 		font-size: 16px;
+ 		padding-right: 20px;
+ 		margin-top: 35px;
+ 		
+ 	}
+ 	.heart_img{
+		width: 20px;
+		height: 15px;
+		margin-bottom: -3px;
+	}
+ 	.banner{
+ 		width: 480px;
+ 		height: 220px;
+ 	}
+
+ 	.print-img{
+ 		width:190px;
+ 		height: 190px;
+ 	}
+ 	.photo-img{
+ 		width:190px;
+ 		height: 190px;
+ 	}
+ 	.second-block{
+ 		display: flex;
+ 		flex-wrap: wrap;
+ 	}
+ 	
+ 	.col-2{
+ 		width: 50%;
+ 		margin-top: 15px;
+ 		padding-left: 30px;
+ 	}
+ 	.title-col-2{
+ 		font-size: 14px;
+ 	}
+ 	.text-col-2{
+ 		font-size: 12px;
+ 		margin-left: -40px;
+ 	}
+
+
+ 	.col-3{
+ 		width: 50%;
+ 	}
+ 	.big-words{
+ 		margin-top: 15px;
+		padding-left: 5%;
+		font-size: 22px;
+		
+		line-height: 90%;
+	}
+	.million{
+		font-family: "Georgia";
+		font-style: italic;
+		font-size: 40px;
+	}
+ 	li{
+		 list-style-type: none;
+	}
+	li::before{
+		content: "— ";
+	}
+	ul{
+		line-height: 120%;
+		font-size: 14px;
+	}
+
+	.collection-and-empty{
+		display: flex;
+		flex-wrap: wrap;
+		max-height: 130px;
+	}
+
+	.col-print-img{
+		width: 50%;
+	}
+	.collection-print{
+		width: 250px;
+		height: 125px;
+		margin-left: -30px;
+		margin-top: 30px;
+	}
+
+	.empty-collction{
+		width: 50%;
+	}
+	.third-block{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.col-5{
+		font-size: 12px;
+		width: 50%;
+	}
+
+	.fox-print{
+		padding-left: 20px;
+		
+	}
+	.two-print-block{
+		display: flex;
+		flex-wrap: wrap;
+
+	}
+	.first-print{
+		width: 50%;
+		padding-left: 20px;
+
+	}
+	.second-print{
+		width: 50%;
+		padding-left: 20px;
+
+	}
+	.col-sale{
+		font-size: 46px;
+		line-height: 80%;
+		margin-top: 20px;
+		margin-left: 45px;
+	}
+	.title-col-8{
+
+		font-size: 18px;
+	}
+	.six-block{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.col-8{
+		margin-top: 15px;
+		padding-left: 15px;
+		width: 50%;
+	}
+	.col-9{
+		margin-top: 15px;
+		width: 50%;
+	}
+	.proj-block{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.proj-title{
+		font-size: 46px;
+		width: 100%;
+	}
+	.photo-1{
+		order:1;
+		width: 50%;
+	}
+	.text-proj-1-empty{
+		order:2;
+		width: 50%;
+		margin-top: 30px;
+		font-size: 12px;
+	}
+
+	.another-photo{
+		order:3;
+	}
+	.col-contact-adptive{
+		width: 100%;
+		padding-left: 15px;
+		margin-top: 40px;
+		font-size: 12px;
+		display: flex;
+		
+	}
+		
+	.title-col-1{
+		font-size: 16px;
+		margin-bottom: 45px;
+	}
+	.contacts{
+		line-height: 40%;
+		margin-top: 35px;
+		
+		font-size: 14px;
+		text-align: center;
+	}
+	.download-links-2{
+		margin-top: 20px;
+		width: 100%;
+		text-align: center;
+	}
+	.tel{
+		text-decoration: none;
+		color: black;
+	}
+	.download-link{
+		text-align: center;
+	}
+	.links{
+		text-decoration: none;
+		color: #b87a41;
+	}
+	.vk{
+		margin-top: 20px;
+		width: 50px;
+		height: 50px;
+		align-items: center;
+	}
+	footer{
+		margin-top: 90px;
+		display: flex;
+		justify-content: center;
+	}
+	.fg-logo{
+		width: 35px;
+		height: 35px;
+	}
+	.bg-text-footer{
+		margin-top: 10px;
+		margin-bottom: 40px;
+		align-items: center;
+		font-size: 16px;
+		height: 24px;
+	}
+
+
+	
+ }
+
+@media screen and (min-width:720px){
+	.br{
+		display: initial;
+	}
+	.banner-360{
+		display: none;
+	}
+	.banner{
+		display: initial;
+	}
+	.col-contact-adaptive{
+		display: initial;
+	}
+	.text-proj-adaptive{
+		display: initial;
+	}
+	.text-proj-2-empty{
+		display: none;
+	}
+	.photo-1{
+ 		display: initial;
+ 	}
+ 	.another-photo{
+ 		display: initial;
+ 	}
+ 	.photo{
+ 		display: none;
+ 	}
+	.col-6{
+		display: none;
+	}
+	.fox-print{
+ 		display: initial;
+ 	}
+ 	.collection-and-empty{
+ 		display: initial;
+ 	}
+ 	.advantages-adaptive{
+ 		display: initial;
+ 	}
+ 	.two-print-block{
+ 		display: initial;
+ 	}
+	.advantages{
+ 		display: none;
+ 	}
+ 	.download-links{
+		display: none;
+	}
+	.col-4{
+		display: none;
+	}
+	#fox{
+		display: none;
+	}
+	.empty-col{
+		display: initial;
+	}
+	.col-contact{
+ 		display: none;
+ 	}
+ 	.col-contact-2{
+ 		display: none;
+ 	}
+ 	.container{
+ 		max-width: 720px;
+ 		margin: 0 auto;
+ 	}
+ 	header{
+ 		display: flex;
+ 		flex-wrap: wrap;
+ 	}
+ 	.fg_words{
+ 		width: 40%;
+ 		margin-top: 15px;
+ 		margin-bottom: 15px;
+ 		padding-left: 20px;
+ 	}
+ 	h1{
+ 		font-size: 28px;
+ 		line-height: 20%;
+ 		font-weight: 700;
+ 	}
+ 	.fav_words{
+ 		width: 60%;
+ 		font-size: 24px;
+ 		padding-right: 20px;
+ 		margin-top: 35px;
+ 		
+ 	}
+ 	.heart_img{
+		width: 25px;
+		height: 20px;
+		margin-bottom: -5px;
+	}
+ 	.banner{
+ 		width: 720px;
+ 		height: 340px;
+ 	}
+
+ 	.print-img{
+ 		width:270px;
+ 		height: 270px;
+ 	}
+ 	.photo-img{
+ 		width:270px;
+ 		height: 270px;
+ 	}
+ 	.second-block{
+ 		display: flex;
+ 		flex-wrap: wrap;
+ 	}
+ 	
+ 	.col-2{
+ 		width: 50%;
+ 		margin-top: 20px;
+ 		padding-left: 40px;
+ 	}
+ 	.title-col-2{
+ 		font-size: 18px;
+ 	}
+ 	.text-col-2{
+ 		font-size: 16px;
+ 	}
+
+
+ 	.col-3{
+ 		width: 50%;
+ 	}
+ 	.big-words{
+ 		margin-top: 20px;
+		padding-left: 5%;
+		font-size: 30px;
+		
+		line-height: 90%;
+	}
+	.million{
+		font-family: "Georgia";
+		font-style: italic;
+		font-size: 50px;
+	}
+ 	li{
+		 list-style-type: none;
+	}
+	li::before{
+		content: "— ";
+	}
+	ul{
+		line-height: 120%;
+		font-size: 16px;
+	}
+
+	.collection-and-empty{
+		display: flex;
+		flex-wrap: wrap;
+		max-height: 130px;
+	}
+
+	.col-print-img{
+		width: 50%;
+	}
+	.collection-print{
+		width: 350px;
+		height: 100px;
+		margin-left: -30px;
+	}
+
+	.empty-collction{
+		width: 50%;
+	}
+	.third-block{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.col-5{
+		font-size: 16px;
+		width: 50%;
+	}
+
+	.fox-print{
+		padding-left: 30px;
+		
+	}
+	.two-print-block{
+		display: flex;
+		flex-wrap: wrap;
+
+	}
+	.first-print{
+		width: 50%;
+		padding-left: 30px;
+
+	}
+	.second-print{
+		width: 50%;
+		padding-left: 30px;
+
+	}
+	#print-1{
+		width: 270px;
+		height: 270px;
+	}
+	#print-2{
+		width: 270px;
+		height: 270px;
+	}
+	.col-sale{
+		font-size: 50px;
+		line-height: 80%;
+		margin-top: 30px;
+		margin-left: 20px;
+	}
+	.title-col-8{
+		
+		font-size: 18px;
+	}
+	.six-block{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.col-8{
+		margin-top: 20px;
+		padding-left: 20px;
+		width: 50%;
+	}
+	.col-9{
+		margin-top: 20px;
+		width: 50%;
+	}
+	.proj-block{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.proj-title{
+		font-size: 50px;
+		width: 100%;
+	}
+	.photo-1{
+		order:1;
+		width: 50%;
+	}
+	.text-proj-1-empty{
+		order:2;
+		width: 50%;
+		margin-top: 30px;
+		font-size: 16px;
+	}
+
+	.another-photo{
+		order:3;
+	}
+	.col-contact-adptive{
+		width: 100%;
+		padding-left: 20px;
+		margin-top: 60px;
+		font-size: 16px;
+		display: flex;
+		
+	}
+		
+	.title-col-1{
+		font-size: 20px;
+		margin-bottom: 60px;
+	}
+	.contacts{
+		line-height: 40%;
+		margin-top: 45px;
+		
+		font-size: 18px;
+		text-align: center;
+	}
+	.download-links-2{
+		margin-top: 30px;
+		width: 100%;
+		text-align: center;
+	}
+	.tel{
+		text-decoration: none;
+		color: black;
+	}
+	.download-link{
+		text-align: center;
+	}
+	.links{
+		text-decoration: none;
+		color: #b87a41;
+	}
+	.vk{
+		margin-top: 30px;
+		width: 50px;
+		height: 50px;
+		align-items: center;
+	}
+	footer{
+		margin-top: 100px;
+		display: flex;
+		justify-content: center;
+	}
+	.fg-logo{
+		width: 40px;
+		height: 40px;
+	}
+	.bg-text-footer{
+		margin-top: 10px;
+		margin-bottom: 40px;
+		align-items: center;
+		font-size: 20px;
+		height: 24px;
+	}
+
+
+	
+ }
+
+ @media screen and (min-width:1280px){
+ 	.br{
+		display: initial;
+	}
+ 	.banner-360{
+		display: none;
+	}
+	.banner{
+		display: initial;
+	}
+ 	.col-contact-adaptive{
+		display: none;
+	}
+ 	.text-proj-adaptive{
+		display: none;
+	}
+	.text-proj-2-empty{
+		display: initial;
+	}
+ 	.photo-1{
+ 		display: none;
+ 	}
+ 	.another-photo{
+ 		display: none;
+ 	}
+ 	.photo{
+ 		display: initial;
+ 	}
+ 	.col-contact-2{
+ 		display: initial;
+ 	}
+ 	.two-print-block{
+ 		display: none;
+ 	} 	
+ 	.fox-print{
+ 		display: none;
+ 	}
+ 	.collection-and-empty{
+ 		display: none;
+ 	}
+ 	.advantages-adaptive{
+ 		display: none;
+ 	}
+ 	.advantages{
+ 		display: initial;
+ 	}
+ 	.download-links{
+		display: initial;
+	}
+	.col-4{
+		display: initial;
+	}
+	#fox{
+		display: initial;
+	}
+	.empty-col{
+		display: initial;
+	}
+	.col-contact{
+ 		display: initial;
+ 	}
+ 	.col-6{
+ 		display: initial;
+ 	}
+ 	.container{
+ 		width: 100%;
+ 		max-width: 1200px;
+ 		margin: 0 auto;
+ 	}
+ 	h1{
+ 		font-size: 38px;
+ 		line-height: 20%;
+ 		font-weight: 700;
+ 	}
+ 	.banner{
+ 		width: 1200px;
+ 		height: 540px;
+ 	}
+ 	header{
+ 		display: flex;
+ 		flex-wrap: wrap;
+
+ 	}
+ 	.fg_words{
+ 		margin-top: 30px;
+ 		margin-bottom: 30px;
+ 		width: 50%;
+ 		padding-left: 20px;
+ 	}
+ 	.fav_words{
+ 		width: 50%;
+ 		font-size: 34px;
+ 		padding-right: 20px;
+ 		margin-top: 60px;
+ 		margin-bottom: 30px;
+ 		
+ 	}
+ 	.heart_img{
+		width: 30px;
+		height: 25px;
+		margin-bottom: -5px;
+	}
+	.second-block{
+		width:100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.col-contact{
+		width: 20%;
+		padding-left: 20px;
+		margin-top: 60px;
+
+	}
+	.title-col-1{
+		font-size: 20px;
+		margin-bottom: 60px;
+	}
+	.contacts{
+		line-height: 40%;
+		margin-top: 45px;
+		
+		font-size: 18px;
+		text-align: left;
+	}
+	.col-2{
+		width: 35%;
+		padding-left: 10%;
+		margin-top:70px;
+	}
+	.title-col-2{
+		font-size: 36px;
+	}
+	.col-3{
+		width: 45%;
+		margin-top: 50px;
+		padding-left: 5%;
+	}
+	
+
+	.tel{
+		text-decoration: none;
+		color: black;
+	}
+	li{
+		 list-style-type: none;
+	}
+	li::before{
+		content: "— ";
+	}
+	ul{
+		line-height: 120%;
+		font-size: 18px;
+	}
+	.big-words{
+		width: 100%;
+		padding-left: 5%;
+		font-size: 50px;
+		
+		line-height: 90%;
+	}
+	.million{
+		font-family: "Georgia";
+		font-style: italic;
+		font-size: 90px;
+	}
+	.third-block{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.download-link{
+		text-align: left;
+	}
+	.download-links{
+		width: 25%;
+		padding-left: 20px;
+		text-align: left;
+	}
+
+	.links{
+		text-decoration: none;
+		color: #b87a41;
+	}
+	.vk{
+		width: 50px;
+		height: 50px;
+	}
+	.col-4{
+		width: 25%;
+		font-size: 56px;
+		margin-top:30px;
+	}
+	.col-5{
+		width: 50%;
+		padding-left: 20px;
+		margin-top: 40px;
+		
+		font-size: 18px;
+	}
+	.four-block{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	
+	.col-6{
+		width: 75%;
+		margin-top: 30px;
+	}
+	.print-img{
+		width: 270px;
+		height: 270px;
+	}
+	.five-block{
+		display: flex;
+		flex-wrap: nowrap;
+	}
+	.empty-col{
+		width: 25%;
+		height: 100%;
+	}
+
+	.col-sale{
+		width: 75%;
+		font-size: 46px;
+		margin-top: 30px;
+		line-height: 90%;
+
+	}
+	.six-block{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.empty-col-half{
+		width: 50%;
+	}
+	.col-8{
+		width:25%;
+	}
+	.title-col-8{
+
+	}
+	.col-9{
+		width: 25%;
+	}
+	.title-col-8{
+		font-size: 20px;
+	}
+	.seven-block{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.proj-block{
+		width: 75%;
+	}
+	.photo-img{
+		width: 270px;
+		height: 270px;
+	}
+	.proj-title{
+		margin-top: 30px;
+		font-size: 44px;
+
+	}
+	.col-contact-2{
+		width: 25%;
+		padding-left: 20px;
+	}
+	.photo{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.text-proj-1{
+		margin-top: 20px;
+		font-size: 18px;
+		float: left;
+	}
+	.text-proj-2{
+		float: right;
+		font-size: 18px;
+	}
+	.download-links-2{
+		text-align: left;
+		margin-top: 40px;
+	}
+	footer{
+		margin-top: 60px;
+		display: flex;
+		justify-content: center;
+	}
+	.fg-logo{
+		width: 50px;
+		height: 50px;
+	}
+	.bg-text-footer{
+		margin-top: 10px;
+		margin-bottom: 30px;
+		align-items: center;
+		font-size: 18px;
+		height: 22px;
+	}
+
+
+
+ }
+ @media screen and (min-width:1920px) {
+ 	.br{
+		display: initial;
+	}
+ 	.banner-360{
+		display: none;
+	}
+	.banner{
+		display: initial;
+	}
+ 	.col-contact-adaptive{
+		display: none;
+	}
+ 	.text-proj-adaptive{
+		display: none;
+	}
+	.text-proj-2-empty{
+		display: initial;
+	}
+ 	.photo-1{
+ 		display: none;
+ 	}
+ 	.another-photo{
+ 		display: none;
+ 	}
+ 	.photo{
+ 		display: initial;
+ 	}
+ 	.col-contact-2{
+ 		display: initial;
+ 	}
+ 	.two-print-block{
+ 		display: none;
+ 	}
+ 	.col-6{
+ 		display: initial;
+ 	}
+ 	.fox-print{
+ 		display: none;
+ 	}
+ 	.collection-and-empty{
+ 		display: none;
+ 	}
+ 	.advantages-adaptive{
+ 		display: none;
+ 	}
+ 	.advantages{
+ 		display: initial;
+ 	}
+ 	.download-links{
+		display: initial;
+	}
+	.col-4{
+		display: initial;
+	}
+	#fox{
+		display: initial;
+	}
+	.empty-col{
+		display: initial;
+	}
+	.col-contact{
+ 		display: initial;
+ 	}
+ 	.container{
+ 		width: 100%;
+ 		max-width: 1600px;
+ 		margin: 0 auto;
+ 	}
+ 	h1{
+ 		font-size: 46px;
+ 		line-height: 20%;
+ 		font-weight: 700;
+ 	}
+ 	.banner{
+ 		margin-top: 20px;
+		width: 1600px;
+		height: 700px;
+ 	}
+ 	header{
+ 		display: flex;
+ 		flex-wrap: wrap;
+
+ 	}
+ 	.fg_words{
+ 		margin-top: 30px;
+ 		margin-bottom: 30px;
+ 		width: 50%;
+ 		padding-left: 20px;
+ 	}
+ 	.fav_words{
+ 		width: 50%;
+ 		font-size: 42px;
+ 		padding-right: 20px;
+ 		margin-top: 60px;
+ 		margin-bottom: 30px;
+ 	
+ 	}
+ 	.heart_img{
+		width: 40px;
+		height: 35px;
+		margin-bottom: -5px;
+	}
+	.second-block{
+		width:100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.col-contact{
+		width: 20%;
+		padding-left: 20px;
+		margin-top: 60px;
+
+	}
+	.title-col-1{
+		font-size: 26px;
+		margin-bottom: 60px;
+	}
+	.contacts{
+		line-height: 40%;
+		margin-top: 45px;
+		
+		font-size: 22px;
+		text-align: left;
+	}
+	.col-2{
+		width: 35%;
+		padding-left: 10%;
+		margin-top:70px;
+	}
+	.title-col-2{
+		font-size: 42px;
+	}
+	.col-3{
+		width: 45%;
+		margin-top: 50px;
+		padding-left: 5%;
+	}
+	
+	.tel{
+		text-decoration: none;
+		color: black;
+	}
+	li{
+		 list-style-type: none;
+	}
+	li::before{
+		content: "— ";
+	}
+	ul{
+		line-height: 120%;
+		font-size: 22px;
+	}
+	.big-words{
+		width: 100%;
+		padding-left: 5%;
+		font-size: 70px;
+		
+		line-height: 90%;
+	}
+	.million{
+		font-family: "Georgia";
+		font-style: italic;
+		font-size: 120px;
+	}
+	.third-block{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.download-link{
+		text-align: left;
+		align-items: left;
+	}
+	.download-links{
+		text-align: left;
+		width: 25%;
+		padding-left: 20px;
+	}
+	.links{
+		text-decoration: none;
+		color: #b87a41;
+	}
+	.vk{
+		width: 60px;
+		height: 60px;
+	}
+	.col-4{
+		width: 25%;
+		font-size: 62px;
+		margin-top:30px;
+	}
+	.col-5{
+		width: 50%;
+		padding-left: 20px;
+		margin-top: 40px;
+		
+		font-size: 20px;
+	}
+	.four-block{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.empty-col{
+		width: 25%;
+		height: 100px;
+	}
+	.col-6{
+		width: 75%;
+		margin-top: 30px;
+	}
+
+	.print-img{
+		width: 395px;
+		height: 385px;
+	}
+	
+	#empty-col{
+		width: 25%;
+	}
+	.col-sale{
+		width: 75%;
+		font-size: 54px;
+		margin-top: 30px;
+		line-height: 90%;
+		
+	}
+	.six-block{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.empty-col-half{
+		width: 50%;
+	}
+	.col-8{
+		width:25%;
+		font-size: 20px;
+	}
+	.col-9{
+		width: 25%;
+		font-size: 20px;
+	}
+	.title-col-8{
+		font-size: 22px;
+	}
+	.seven-block{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.proj-block{
+		width: 75%;
+	}
+	.photo-img{
+		width: 385px;
+		height: 385px;
+	}
+	.proj-title{
+		margin-top: 30px;
+		font-size: 54px;
+		
+	}
+	.col-contact-2{
+		width: 25%;
+		padding-left: 20px;
+	}
+	.photo{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.text-proj-1-empty{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.text-proj-empty{
+		width: 50%;
+	}
+	.text-proj-1{
+		width:50%;
+		margin-top: 20px;
+		font-size: 20px;
+		width: 100%;
+	}
+	.text-proj-2-empty{
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	.text-proj-2{
+		margin-top: 20px;
+		width: 100%;
+		font-size: 20px;
+		text-align: right;
+	}
+	.download-links-2{
+		margin-top: 40px;
+		text-align: left;
+	}
+	footer{
+		margin-top: 150px;
+		display: flex;
+		justify-content: center;
+	}
+	.fg-logo{
+		width: 60px;
+		height: 60px;
+	}
+	.bg-text-footer{
+		margin-top: 10px;
+		margin-bottom: 40px;
+		align-items: center;
+		font-size: 22px;
+		height: 26px;
+	}
+
